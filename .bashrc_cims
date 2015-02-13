@@ -1,0 +1,49 @@
+#
+# Get CIMS defaults
+#
+if [ -r /usr/local/lib/.system.bashrc ] ; then
+    . /usr/local/lib/.system.bashrc
+fi
+
+# Make individual customizations, such as aliases, below.
+export PATH=/usr/bin:$PATH #cc from /usr/bin/cc
+#command -v module >/dev/null 2>&1 && module load python-2.7 && echo "python-2.7 loaded" || echo "no module command"
+command -v module >/dev/null 2>&1 && module load python-2.7
+# for screen and ssh -e, don't do model but add explicitly to path
+export PATH=/usr/local/pkg/python/2.7/bin:$PATH
+export LD_LIBRARY_PATH=/usr/local/pkg/python/2.7/lib:$LD_LIBRARY_PATH
+export PATH=/home/ts2387/.local/bin:$PATH
+export LD_LIBRARY_PATH=/home/ts2387/.local/lib:$LD_LIBRARY_PATH
+# torch
+export PATH=/home/ts2387/torch7/bin:$PATH
+export LD_LIBRARY_PATH=/home/ts2387/torch7/lib:$LD_LIBRARY_PATH
+
+# enable color support of ls and also add handy aliases
+if [ -x /usr/bin/dircolors ]; then
+    test -r ~/.dircolors && eval "$(dircolors -b ~/.dircolors)" || eval "$(dircolors -b)"
+    alias ls='ls --color=auto'
+    #alias dir='dir --color=auto'
+    #alias vdir='vdir --color=auto'
+    alias grep='grep --color=auto'
+    alias fgrep='fgrep --color=auto'
+    alias egrep='egrep --color=auto'
+fi
+# some more ls aliases
+alias ll='ls -alhF'
+alias la='ls -A'
+alias l='ls -CF'
+# copy verbose alias (added 2013-07-19)
+alias cpv='rsync --progress -ah'
+alias gpu_stat='/home/deigen/bin/gpu_usage'
+alias vi=vim
+alias grip='grep -i'
+
+PS1='\h[\w]$ '
+
+# most recent cuda
+export PATH=/usr/local/pkg/cuda/6.5/bin:$PATH
+export LD_LIBRARY_PATH=/usr/local/pkg/cuda/6.5/lib64:/usr/local/pkg/cuda/6.5/lib:$LD_LIBRARY_PATH
+export LD_LIBRARY_PATH=/home/ts2387/cudnn-6.5-linux-R1/:$LD_LIBRARY_PATH
+
+# umask for babel 
+umask 007

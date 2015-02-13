@@ -2,6 +2,7 @@ ln -s ~/dotfiles/.Xresources ~/
 ln -s ~/dotfiles/.i3 ~/
 ln -s ~/dotfiles/.gitconfig ~/
 ln -s ~/dotfiles/.Xmodmap ~/
-ln -s ~/dotfiles/.bashrc ~/
+ln -s ~/dotfiles/.bashrc_local ~/
 ln -s ~/dotfiles/.vim ~/
 ln -s ~/.vim/vimrc ~/.vimrc
+ln -s ~/dotfiles/.tmux.conf ~/

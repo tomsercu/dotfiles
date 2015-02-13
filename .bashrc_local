@@ -134,4 +134,5 @@ alias hjs='hadoop jar /home/tom/hadoop-1.2.1/contrib/streaming/hadoop-streaming-
 PATH=/home/tom/torch/bin:$PATH
 export PATH=~/torch-distro/install/bin:$PATH; export LD_LIBRARY_PATH=~/torch-distro/install/lib:$LD_LIBRARY_PATH; 
 alias grip='grep -i'
+alias vi=vim
 alias susp='sudo pm-suspend && i3lock -c 000050'
