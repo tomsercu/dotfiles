@@ -1,0 +1,259 @@
+02/07/2015 10:21:08 AM - i3 4.8 (2014-06-15, branch "4.8") starting
+02/07/2015 10:21:08 AM - Parsing configfile /home/tom/.i3/config
+02/07/2015 10:21:08 AM - deciding for version 4 due to this line: # i3 config file (v4)
+02/07/2015 10:21:08 AM - [libi3] libi3/font.c Using X font -misc-fixed-medium-r-normal--13-120-75-75-C-70-iso10646-1
+02/07/2015 10:21:08 AM - Used number 1 for workspace with name 1
+02/07/2015 10:21:08 AM - This is not an in-place restart, copying root window contents to a pixmap
+02/07/2015 10:21:08 AM - auto-starting xmodmap ~/.Xmodmap
+02/07/2015 10:21:08 AM - startup id = i3/xmodmap/2190-0-tom-ubuntu_TIME0
+02/07/2015 10:21:08 AM - executing: xmodmap ~/.Xmodmap
+02/07/2015 10:21:08 AM - Starting bar process: i3bar --bar_id=bar-0 --socket="/tmp/i3-tom.cCUyTz/ipc-socket.2190"
+02/07/2015 10:21:08 AM - executing: i3bar --bar_id=bar-0 --socket="/tmp/i3-tom.cCUyTz/ipc-socket.2190"
+02/07/2015 10:21:08 AM - Not a managed window, ignoring UnmapNotify event
+02/07/2015 10:21:08 AM - IPC: looking for config for bar ID "bar-0"
+02/07/2015 10:21:08 AM - workspace visible? fs = 0x2601330, ws = 0x2601330
+02/07/2015 10:21:08 AM - WM_CLASS changed to i3bar (instance), i3bar (class)
+02/07/2015 10:21:08 AM - WM_NAME changed to "i3bar for output LVDS1"
+02/07/2015 10:21:08 AM - Using legacy window title. Note that in order to get Unicode window titles in i3, the application has to set _NET_WM_NAME (UTF-8)
+02/07/2015 10:21:08 AM - This window is of type dock
+02/07/2015 10:21:08 AM - Checking window 0x00a00007 (class i3bar)
+02/07/2015 10:21:08 AM - dock status does not match
+02/07/2015 10:21:08 AM - Checking window 0x00a00007 (class i3bar)
+02/07/2015 10:21:08 AM - dock status matches
+02/07/2015 10:21:08 AM - Checking window 0x00a00007 (class i3bar)
+02/07/2015 10:21:08 AM - Regular expression "^Google-chrome$" does not match "i3bar"
+02/07/2015 10:21:08 AM - Urgency flag changed to 0
+02/07/2015 10:21:08 AM - ClientMessage for window 0x000000ca
+i3status: trying to auto-detect output_format setting
+i3status: falling back to "none"
+02/07/2015 10:21:17 AM - startup id = i3/i3-sensible-terminal/2190-1-tom-ubuntu_TIME254636
+02/07/2015 10:21:17 AM - executing: i3-sensible-terminal
+02/07/2015 10:21:17 AM - Not a managed window, ignoring UnmapNotify event
+02/07/2015 10:21:18 AM - WM_CLASS changed to x-terminal-emulator (instance), X-terminal-emulator (class)
+02/07/2015 10:21:18 AM - WM_NAME changed to "None"
+02/07/2015 10:21:18 AM - Using legacy window title. Note that in order to get Unicode window titles in i3, the application has to set _NET_WM_NAME (UTF-8)
+02/07/2015 10:21:18 AM - _NET_WM_NAME changed to "None"
+02/07/2015 10:21:18 AM - WM_HINTS.input changed to "1"
+02/07/2015 10:21:18 AM - Checking window 0x00c00003 (class X-terminal-emulator)
+02/07/2015 10:21:18 AM - dock status does not match
+02/07/2015 10:21:18 AM - Checking window 0x00c00003 (class X-terminal-emulator)
+02/07/2015 10:21:18 AM - dock status does not match
+02/07/2015 10:21:18 AM - workspace visible? fs = 0x2601330, ws = 0x2601330
+02/07/2015 10:21:18 AM - Checking window 0x00c00003 (class X-terminal-emulator)
+02/07/2015 10:21:18 AM - Regular expression "^Google-chrome$" does not match "X-terminal-emulator"
+02/07/2015 10:21:18 AM - workspace visible? fs = 0x2601330, ws = 0x2601330
+02/07/2015 10:21:18 AM - ClientMessage for window 0x00c00003
+02/07/2015 10:21:18 AM - workspace visible? fs = 0x2601330, ws = 0x2601330
+02/07/2015 10:21:18 AM - workspace visible? fs = 0x2601330, ws = 0x2601330
+02/07/2015 10:21:18 AM - Not a managed window, ignoring UnmapNotify event
+02/07/2015 10:21:18 AM - expose event for unknown window, ignoring
+02/07/2015 10:21:18 AM - Not a managed window, ignoring UnmapNotify event
+02/07/2015 10:21:18 AM - Not a managed window, ignoring UnmapNotify event
+02/07/2015 10:21:18 AM - Not a managed window, ignoring UnmapNotify event
+02/07/2015 10:21:18 AM - Not a managed window, ignoring UnmapNotify event
+02/07/2015 10:21:22 AM - startup id = i3/i3-sensible-terminal/2190-2-tom-ubuntu_TIME259614
+02/07/2015 10:21:22 AM - executing: i3-sensible-terminal
+02/07/2015 10:21:22 AM - Not a managed window, ignoring UnmapNotify event
+
+** (x-terminal-emulator:2287): WARNING **: Binding '<Shift><Control><Alt>a' failed!
+Unable to bind hide_window key, another instance/window has it.
+02/07/2015 10:21:23 AM - WM_CLASS changed to x-terminal-emulator (instance), X-terminal-emulator (class)
+02/07/2015 10:21:23 AM - WM_NAME changed to "None"
+02/07/2015 10:21:23 AM - Using legacy window title. Note that in order to get Unicode window titles in i3, the application has to set _NET_WM_NAME (UTF-8)
+02/07/2015 10:21:23 AM - _NET_WM_NAME changed to "None"
+02/07/2015 10:21:23 AM - WM_HINTS.input changed to "1"
+02/07/2015 10:21:23 AM - Checking window 0x01200003 (class X-terminal-emulator)
+02/07/2015 10:21:23 AM - dock status does not match
+02/07/2015 10:21:23 AM - Checking window 0x01200003 (class X-terminal-emulator)
+02/07/2015 10:21:23 AM - dock status does not match
+02/07/2015 10:21:23 AM - workspace visible? fs = 0x2601330, ws = 0x2601330
+02/07/2015 10:21:23 AM - Checking window 0x01200003 (class X-terminal-emulator)
+02/07/2015 10:21:23 AM - Regular expression "^Google-chrome$" does not match "X-terminal-emulator"
+02/07/2015 10:21:23 AM - workspace visible? fs = 0x2601330, ws = 0x2601330
+02/07/2015 10:21:23 AM - ClientMessage for window 0x01200003
+02/07/2015 10:21:23 AM - workspace visible? fs = 0x2601330, ws = 0x2601330
+02/07/2015 10:21:23 AM - _NET_WM_NAME changed to "None"
+02/07/2015 10:21:23 AM - Checking window 0x01200003 (class X-terminal-emulator)
+02/07/2015 10:21:23 AM - Regular expression "^Google-chrome$" does not match "X-terminal-emulator"
+02/07/2015 10:21:23 AM - _NET_WM_NAME changed to "/bin/bash"
+02/07/2015 10:21:23 AM - Checking window 0x01200003 (class X-terminal-emulator)
+02/07/2015 10:21:23 AM - Regular expression "^Google-chrome$" does not match "X-terminal-emulator"
+02/07/2015 10:21:23 AM - _NET_WM_NAME changed to "/bin/bash"
+02/07/2015 10:21:23 AM - Checking window 0x01200003 (class X-terminal-emulator)
+02/07/2015 10:21:23 AM - Regular expression "^Google-chrome$" does not match "X-terminal-emulator"
+02/07/2015 10:21:23 AM - _NET_WM_NAME changed to "tom@tom-ubuntu: ~"
+02/07/2015 10:21:23 AM - Checking window 0x01200003 (class X-terminal-emulator)
+02/07/2015 10:21:23 AM - Regular expression "^Google-chrome$" does not match "X-terminal-emulator"
+02/07/2015 10:21:24 AM - _NET_WM_NAME changed to "tom@tom-ubuntu: ~"
+02/07/2015 10:21:24 AM - Checking window 0x01200003 (class X-terminal-emulator)
+02/07/2015 10:21:24 AM - Regular expression "^Google-chrome$" does not match "X-terminal-emulator"
+02/07/2015 10:21:25 AM - Creating new workspace "2"
+02/07/2015 10:21:25 AM - got output 0x2600ad0 with content 0x2600ea0
+02/07/2015 10:21:25 AM - num = 2
+02/07/2015 10:21:25 AM - focused now = 0x260bf60 / 2
+02/07/2015 10:21:25 AM - workspace visible? fs = 0x260bf60, ws = 0x2601330
+02/07/2015 10:21:25 AM - workspace visible? fs = 0x260bf60, ws = 0x260bf60
+02/07/2015 10:21:25 AM - workspace visible? fs = 0x260bf60, ws = 0x2601330
+02/07/2015 10:21:25 AM - workspace visible? fs = 0x260bf60, ws = 0x260bf60
+02/07/2015 10:21:25 AM - workspace visible? fs = 0x2601330, ws = 0x260bf60
+02/07/2015 10:21:25 AM - Closing old workspace (0x260bf60 / 2), it is empty
+02/07/2015 10:21:25 AM - focused now = 0x260bdf0 / #00FF00
+02/07/2015 10:21:25 AM - workspace visible? fs = 0x2601330, ws = 0x2601330
+02/07/2015 10:21:25 AM - workspace visible? fs = 0x2601330, ws = 0x2601330
+02/07/2015 10:21:25 AM - Not a managed window, ignoring UnmapNotify event
+02/07/2015 10:21:25 AM - _NET_WM_NAME changed to "tom@tom-ubuntu: ~"
+02/07/2015 10:21:25 AM - Checking window 0x01200003 (class X-terminal-emulator)
+02/07/2015 10:21:25 AM - Regular expression "^Google-chrome$" does not match "X-terminal-emulator"
+02/07/2015 10:21:25 AM - _NET_WM_NAME changed to "tom@tom-ubuntu: ~"
+02/07/2015 10:21:25 AM - Checking window 0x01200003 (class X-terminal-emulator)
+02/07/2015 10:21:25 AM - Regular expression "^Google-chrome$" does not match "X-terminal-emulator"
+02/07/2015 10:21:28 AM - _NET_WM_NAME changed to "tom@tom-ubuntu: ~"
+02/07/2015 10:21:28 AM - Checking window 0x01200003 (class X-terminal-emulator)
+02/07/2015 10:21:28 AM - Regular expression "^Google-chrome$" does not match "X-terminal-emulator"
+02/07/2015 10:21:29 AM - startup id = i3/i3-sensible-terminal/2190-3-tom-ubuntu_TIME266707
+02/07/2015 10:21:29 AM - executing: i3-sensible-terminal
+02/07/2015 10:21:29 AM - Not a managed window, ignoring UnmapNotify event
+02/07/2015 10:21:29 AM - _NET_WM_NAME changed to "tom@tom-ubuntu: ~"
+02/07/2015 10:21:29 AM - Checking window 0x01200003 (class X-terminal-emulator)
+02/07/2015 10:21:29 AM - Regular expression "^Google-chrome$" does not match "X-terminal-emulator"
+
+** (x-terminal-emulator:2365): WARNING **: Binding '<Shift><Control><Alt>a' failed!
+Unable to bind hide_window key, another instance/window has it.
+02/07/2015 10:21:29 AM - WM_CLASS changed to x-terminal-emulator (instance), X-terminal-emulator (class)
+02/07/2015 10:21:29 AM - WM_NAME changed to "None"
+02/07/2015 10:21:29 AM - Using legacy window title. Note that in order to get Unicode window titles in i3, the application has to set _NET_WM_NAME (UTF-8)
+02/07/2015 10:21:29 AM - _NET_WM_NAME changed to "None"
+02/07/2015 10:21:29 AM - WM_HINTS.input changed to "1"
+02/07/2015 10:21:29 AM - Checking window 0x01400003 (class X-terminal-emulator)
+02/07/2015 10:21:29 AM - dock status does not match
+02/07/2015 10:21:29 AM - Checking window 0x01400003 (class X-terminal-emulator)
+02/07/2015 10:21:29 AM - dock status does not match
+02/07/2015 10:21:29 AM - workspace visible? fs = 0x2601330, ws = 0x2601330
+02/07/2015 10:21:29 AM - Checking window 0x01400003 (class X-terminal-emulator)
+02/07/2015 10:21:29 AM - Regular expression "^Google-chrome$" does not match "X-terminal-emulator"
+02/07/2015 10:21:29 AM - workspace visible? fs = 0x2601330, ws = 0x2601330
+02/07/2015 10:21:29 AM - ClientMessage for window 0x01400003
+02/07/2015 10:21:29 AM - workspace visible? fs = 0x2601330, ws = 0x2601330
+02/07/2015 10:21:29 AM - _NET_WM_NAME changed to "None"
+02/07/2015 10:21:29 AM - Checking window 0x01400003 (class X-terminal-emulator)
+02/07/2015 10:21:29 AM - Regular expression "^Google-chrome$" does not match "X-terminal-emulator"
+02/07/2015 10:21:29 AM - _NET_WM_NAME changed to "/bin/bash"
+02/07/2015 10:21:29 AM - Checking window 0x01400003 (class X-terminal-emulator)
+02/07/2015 10:21:29 AM - Regular expression "^Google-chrome$" does not match "X-terminal-emulator"
+02/07/2015 10:21:29 AM - _NET_WM_NAME changed to "tom@tom-ubuntu: ~"
+02/07/2015 10:21:29 AM - Checking window 0x01200003 (class X-terminal-emulator)
+02/07/2015 10:21:29 AM - Regular expression "^Google-chrome$" does not match "X-terminal-emulator"
+02/07/2015 10:21:30 AM - _NET_WM_NAME changed to "tom@tom-ubuntu: ~"
+02/07/2015 10:21:30 AM - Checking window 0x01400003 (class X-terminal-emulator)
+02/07/2015 10:21:30 AM - Regular expression "^Google-chrome$" does not match "X-terminal-emulator"
+02/07/2015 10:21:31 AM - _NET_WM_NAME changed to "tom@tom-ubuntu: ~"
+02/07/2015 10:21:31 AM - Checking window 0x01200003 (class X-terminal-emulator)
+02/07/2015 10:21:31 AM - Regular expression "^Google-chrome$" does not match "X-terminal-emulator"
+02/07/2015 10:21:32 AM - _NET_WM_NAME changed to "tom@tom-ubuntu: ~"
+02/07/2015 10:21:32 AM - Checking window 0x01400003 (class X-terminal-emulator)
+02/07/2015 10:21:32 AM - Regular expression "^Google-chrome$" does not match "X-terminal-emulator"
+02/07/2015 10:21:47 AM - _NET_WM_NAME changed to "tom@tom-ubuntu: ~"
+02/07/2015 10:21:47 AM - Checking window 0x01400003 (class X-terminal-emulator)
+02/07/2015 10:21:47 AM - Regular expression "^Google-chrome$" does not match "X-terminal-emulator"
+02/07/2015 10:21:52 AM - _NET_WM_NAME changed to "tom@tom-ubuntu: ~"
+02/07/2015 10:21:52 AM - Checking window 0x01400003 (class X-terminal-emulator)
+02/07/2015 10:21:52 AM - Regular expression "^Google-chrome$" does not match "X-terminal-emulator"
+02/07/2015 10:22:05 AM - Not a managed window, ignoring UnmapNotify event
+[i3bar/src/xcb.c:542] ERROR: Window 01600016 violates the XEMBED protocol, _XEMBED_INFO not set
+02/07/2015 10:22:06 AM - WM_CLASS changed to vlc (instance), Vlc (class)
+02/07/2015 10:22:06 AM - WM_NAME changed to "VLC media player"
+02/07/2015 10:22:06 AM - Using legacy window title. Note that in order to get Unicode window titles in i3, the application has to set _NET_WM_NAME (UTF-8)
+02/07/2015 10:22:06 AM - _NET_WM_NAME changed to "VLC media player"
+02/07/2015 10:22:06 AM - WM_WINDOW_ROLE changed to "vlc-main"
+02/07/2015 10:22:06 AM - WM_HINTS.input changed to "1"
+02/07/2015 10:22:06 AM - Checking window 0x01600002 (class Vlc)
+02/07/2015 10:22:06 AM - dock status does not match
+02/07/2015 10:22:06 AM - Checking window 0x01600002 (class Vlc)
+02/07/2015 10:22:06 AM - dock status does not match
+02/07/2015 10:22:06 AM - workspace visible? fs = 0x2601330, ws = 0x2601330
+02/07/2015 10:22:06 AM - Checking window 0x01600002 (class Vlc)
+02/07/2015 10:22:06 AM - Regular expression "^Google-chrome$" does not match "Vlc"
+02/07/2015 10:22:06 AM - workspace visible? fs = 0x2601330, ws = 0x2601330
+02/07/2015 10:22:06 AM - _NET_WM_NAME changed to "tom@tom-ubuntu: ~"
+02/07/2015 10:22:06 AM - Checking window 0x01200003 (class X-terminal-emulator)
+02/07/2015 10:22:06 AM - Regular expression "^Google-chrome$" does not match "X-terminal-emulator"
+02/07/2015 10:22:06 AM - _NET_WM_NAME changed to "Outlander S01E04 - VLC media player"
+02/07/2015 10:22:06 AM - Checking window 0x01600002 (class Vlc)
+02/07/2015 10:22:06 AM - Regular expression "^Google-chrome$" does not match "Vlc"
+02/07/2015 10:22:08 AM - Not a managed window, ignoring UnmapNotify event
+02/07/2015 10:22:09 AM - _NET_WM_NAME changed to "tom@tom-ubuntu: ~"
+02/07/2015 10:22:09 AM - Checking window 0x01200003 (class X-terminal-emulator)
+02/07/2015 10:22:09 AM - Regular expression "^Google-chrome$" does not match "X-terminal-emulator"
+02/07/2015 10:22:11 AM - ClientMessage for window 0x01600002
+02/07/2015 10:22:13 AM - Not a managed window, ignoring UnmapNotify event
+02/07/2015 10:22:14 AM - ClientMessage for window 0x01600002
+02/07/2015 10:22:15 AM - already floating, re-setting to tiling
+02/07/2015 10:22:15 AM - Not a managed window, ignoring UnmapNotify event
+02/07/2015 10:22:15 AM - Not a managed window, ignoring UnmapNotify event
+02/07/2015 10:22:15 AM - _NET_WM_NAME changed to "tom@tom-ubuntu: ~"
+02/07/2015 10:22:15 AM - Checking window 0x01200003 (class X-terminal-emulator)
+02/07/2015 10:22:15 AM - Regular expression "^Google-chrome$" does not match "X-terminal-emulator"
+02/07/2015 10:22:17 AM - ClientMessage for window 0x01600002
+02/07/2015 10:22:18 AM - ClientMessage for window 0x01600002
+02/07/2015 10:22:31 AM - _NET_WM_NAME changed to "tom@tom-ubuntu: ~"
+02/07/2015 10:22:31 AM - Checking window 0x01400003 (class X-terminal-emulator)
+02/07/2015 10:22:31 AM - Regular expression "^Google-chrome$" does not match "X-terminal-emulator"
+02/07/2015 10:22:31 AM - _NET_WM_NAME changed to "tom@tom-ubuntu: ~"
+02/07/2015 10:22:31 AM - Checking window 0x01200003 (class X-terminal-emulator)
+02/07/2015 10:22:31 AM - Regular expression "^Google-chrome$" does not match "X-terminal-emulator"
+02/07/2015 10:22:31 AM - _NET_WM_NAME changed to "tom@tom-ubuntu: ~"
+02/07/2015 10:22:31 AM - Checking window 0x01400003 (class X-terminal-emulator)
+02/07/2015 10:22:31 AM - Regular expression "^Google-chrome$" does not match "X-terminal-emulator"
+02/07/2015 10:22:33 AM - Sending WM_DELETE to the client
+02/07/2015 10:22:33 AM - Not a managed window, ignoring UnmapNotify event
+02/07/2015 10:22:33 AM - expose event for unknown window, ignoring
+02/07/2015 10:22:33 AM - Not a managed window, ignoring UnmapNotify event
+02/07/2015 10:22:33 AM - Not a managed window, ignoring UnmapNotify event
+02/07/2015 10:22:33 AM - Not a managed window, ignoring UnmapNotify event
+02/07/2015 10:22:33 AM - _NET_WM_NAME changed to "tom@tom-ubuntu: ~"
+02/07/2015 10:22:33 AM - Checking window 0x01400003 (class X-terminal-emulator)
+02/07/2015 10:22:33 AM - Regular expression "^Google-chrome$" does not match "X-terminal-emulator"
+02/07/2015 10:22:33 AM - _NET_WM_NAME changed to "tom@tom-ubuntu: ~"
+02/07/2015 10:22:33 AM - Checking window 0x01400003 (class X-terminal-emulator)
+02/07/2015 10:22:33 AM - Regular expression "^Google-chrome$" does not match "X-terminal-emulator"
+02/07/2015 10:22:33 AM - _NET_WM_NAME changed to "tom@tom-ubuntu: ~"
+02/07/2015 10:22:33 AM - Checking window 0x01200003 (class X-terminal-emulator)
+02/07/2015 10:22:33 AM - Regular expression "^Google-chrome$" does not match "X-terminal-emulator"
+02/07/2015 10:22:33 AM - _NET_WM_NAME changed to "tom@tom-ubuntu: ~"
+02/07/2015 10:22:33 AM - Checking window 0x01400003 (class X-terminal-emulator)
+02/07/2015 10:22:33 AM - Regular expression "^Google-chrome$" does not match "X-terminal-emulator"
+02/07/2015 10:22:34 AM - Not a managed window, ignoring UnmapNotify event
+02/07/2015 10:22:34 AM - _NET_WM_NAME changed to "tom@tom-ubuntu: ~"
+02/07/2015 10:22:34 AM - Checking window 0x01400003 (class X-terminal-emulator)
+02/07/2015 10:22:34 AM - Regular expression "^Google-chrome$" does not match "X-terminal-emulator"
+02/07/2015 10:22:34 AM - _NET_WM_NAME changed to "tom@tom-ubuntu: ~"
+02/07/2015 10:22:34 AM - Checking window 0x01400003 (class X-terminal-emulator)
+02/07/2015 10:22:34 AM - Regular expression "^Google-chrome$" does not match "X-terminal-emulator"
+02/07/2015 10:22:34 AM - _NET_WM_NAME changed to "tom@tom-ubuntu: ~"
+02/07/2015 10:22:34 AM - Checking window 0x01400003 (class X-terminal-emulator)
+02/07/2015 10:22:34 AM - Regular expression "^Google-chrome$" does not match "X-terminal-emulator"
+02/07/2015 10:22:35 AM - _NET_WM_NAME changed to "tom@tom-ubuntu: ~"
+02/07/2015 10:22:35 AM - Checking window 0x01200003 (class X-terminal-emulator)
+02/07/2015 10:22:35 AM - Regular expression "^Google-chrome$" does not match "X-terminal-emulator"
+02/07/2015 10:22:35 AM - _NET_WM_NAME changed to "tom@tom-ubuntu: ~"
+02/07/2015 10:22:35 AM - Checking window 0x01400003 (class X-terminal-emulator)
+02/07/2015 10:22:35 AM - Regular expression "^Google-chrome$" does not match "X-terminal-emulator"
+02/07/2015 10:23:10 AM - _NET_WM_NAME changed to "tom@tom-ubuntu: ~"
+02/07/2015 10:23:10 AM - Checking window 0x01200003 (class X-terminal-emulator)
+02/07/2015 10:23:10 AM - Regular expression "^Google-chrome$" does not match "X-terminal-emulator"
+02/07/2015 10:23:14 AM - _NET_WM_NAME changed to "tom@tom-ubuntu: ~"
+02/07/2015 10:23:14 AM - Checking window 0x01200003 (class X-terminal-emulator)
+02/07/2015 10:23:14 AM - Regular expression "^Google-chrome$" does not match "X-terminal-emulator"
+02/07/2015 10:23:18 AM - _NET_WM_NAME changed to "tom@tom-ubuntu: ~"
+02/07/2015 10:23:18 AM - Checking window 0x01200003 (class X-terminal-emulator)
+02/07/2015 10:23:18 AM - Regular expression "^Google-chrome$" does not match "X-terminal-emulator"
+02/07/2015 10:23:31 AM - Exiting due to user command.
+[libi3] libi3/font.c Using X font -misc-fixed-medium-r-normal--13-120-75-75-C-70-iso10646-1
+g_dbus_connection_real_closed: Remote peer vanished with error: Underlying GIOStream returned 0 bytes on an async read (g-io-error-quark, 0). Exiting.
+x-terminal-emulator: Fatal IO error 11 (Resource temporarily unavailable) on X server :0.
+x-terminal-emulator: Fatal IO error 11 (Resource temporarily unavailable) on X server :0.
+g_dbus_connection_real_closed: Remote peer vanished with error: Underlying GIOStream returned 0 bytes on an async read (g-io-error-quark, 0). Exiting.
+g_dbus_connection_real_closed: Remote peer vanished with error: Underlying GIOStream returned 0 bytes on an async read (g-io-error-quark, 0). Exiting.
+Terminated
+Terminated
+Terminated
