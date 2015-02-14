@@ -13,6 +13,12 @@
     co = checkout
     br = branch
     ci = commit
+	d = difftool
+	df = diff
     ;cpush = !f(){git commit -a -m "$1" && git push;};f
 [push]
 	default = simple
+[diff]
+	tool = vimdiff
+[difftool]
+	prompt = false
