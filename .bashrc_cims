@@ -1,22 +1,28 @@
 #
 # Get CIMS defaults
 #
-if [ -r /usr/local/lib/.system.bashrc ] ; then
-    . /usr/local/lib/.system.bashrc
-fi
+#if [ -r /usr/local/lib/.system.bashrc ] ; then
+    #. /usr/local/lib/.system.bashrc
+#fi
+
+# No CIMS defaults, just set the damn paths myself
+export PATH=/opt/bin:/usr/local/bin:/usr/local/sbin:/usr/bin:/usr/sbin:/bin:/sbin:/opt/sunstudio/bin:/usr/lib64/ccache
+export PATH=/home/ts2387/.local/bin:/home/ts2387/bin:$PATH
+export LD_LIBRARY_PATH=/usr/local/lib:/usr/local/slib:/usr/lib:/usr/slib:/lib:/slib
+export LD_LIBRARY_PATH=/home/ts2387/.local/lib:/home/ts2387/lib:$LD_LIBRARY_PATH
 
 # Make individual customizations, such as aliases, below.
-export PATH=/usr/bin:$PATH #cc from /usr/bin/cc
-#command -v module >/dev/null 2>&1 && module load python-2.7 && echo "python-2.7 loaded" || echo "no module command"
-command -v module >/dev/null 2>&1 && module load python-2.7
-# for screen and ssh -e, don't do model but add explicitly to path
-export PATH=/usr/local/pkg/python/2.7/bin:$PATH
-export LD_LIBRARY_PATH=/usr/local/pkg/python/2.7/lib:$LD_LIBRARY_PATH
-export PATH=/home/ts2387/.local/bin:$PATH
-export LD_LIBRARY_PATH=/home/ts2387/.local/lib:$LD_LIBRARY_PATH
+# for screen and ssh -e, don't do module but add explicitly to path
+command -v module > /dev/null 2>&1
+if [ $? -eq 0 ]; then
+    module load python-2.7
+else
+    export PATH=/usr/local/pkg/python/2.7/bin:$PATH
+    export LD_LIBRARY_PATH=/usr/local/pkg/python/2.7/lib:$LD_LIBRARY_PATH
+fi
 # torch
-export PATH=/home/ts2387/torch7/bin:$PATH
-export LD_LIBRARY_PATH=/home/ts2387/torch7/lib:$LD_LIBRARY_PATH
+export PATH=/home/ts2387/torch/bin:$PATH
+export LD_LIBRARY_PATH=/home/ts2387/torch/lib:$LD_LIBRARY_PATH
 
 # enable color support of ls and also add handy aliases
 if [ -x /usr/bin/dircolors ]; then
@@ -43,7 +49,14 @@ PS1='\h[\w]$ '
 # most recent cuda
 export PATH=/usr/local/pkg/cuda/6.5/bin:$PATH
 export LD_LIBRARY_PATH=/usr/local/pkg/cuda/6.5/lib64:/usr/local/pkg/cuda/6.5/lib:$LD_LIBRARY_PATH
-export LD_LIBRARY_PATH=/home/ts2387/cudnn-6.5-linux-R1/:$LD_LIBRARY_PATH
 
 # umask for babel 
 umask 007
+# openmpi
+export PATH=/usr/lib64/openmpi/bin:$PATH
+export LD_LIBRARY_PATH=/usr/lib64/openmpi/lib:$LD_LIBRARY_PATH
+# mongodb for spearmint
+export PATH=/usr/local/pkg/obsolete/mongodb/2.4.3/bin:$PATH
+export LD_LIBRARY_PATH=/home/ts2387/lib:$LD_LIBRARY_PATH
+# set pulse audio for automatic port forwarding
+export PULSE_SERVER=localhost:9975
