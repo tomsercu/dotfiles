@@ -159,8 +159,8 @@ exec xmodmap ~/.Xmodmap
 hide_edge_borders both
 for_window [class="^Google-chrome$"] border normal
 # TODO Why doesn't this work?
-#exec setup-xrandr
-#exec echo "blab" >> ~/.i3/log
+#exec --no-startup-id setup-xrandr
+#exec --no-startup-id echo "blab" >> ~/.i3/log
 # music control
 # Pulse Audio controls
 bindsym XF86AudioRaiseVolume exec pactl set-sink-volume 0 +5% #increase sound volume
@@ -183,6 +183,8 @@ bindsym XF86AudioPrev exec playerctl previous
 # startup applications
 exec --no-startup-id nm-applet
 exec --no-startup-id dropbox start -i
+exec --no-startup-id xsetroot -solid "#003333"
+exec --no-startup-id xrdb ~/.Xresources
 
 bindsym Control+$mod+l exec i3lock -d -c 000020
 bindsym $mod+Shift+P exec i3-sensible-terminal -e "ipython" --title="PYTHONCALC"
