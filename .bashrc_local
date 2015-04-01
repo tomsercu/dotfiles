@@ -136,3 +136,5 @@ export PATH=~/torch-distro/install/bin:$PATH; export LD_LIBRARY_PATH=~/torch-dis
 alias grip='grep -i'
 alias vi=vim
 alias susp='sudo pm-suspend && i3lock -c 000050'
+# openmpi
+export LD_LIBRARY_PATH=/usr/lib/openmpi/lib:$LD_LIBRARY_PATH
