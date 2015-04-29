@@ -186,9 +186,13 @@ exec --no-startup-id dropbox start -i
 exec --no-startup-id xsetroot -solid "#003333"
 exec --no-startup-id xrdb ~/.Xresources
 
+# floating calculator and tempterminal - BROKEN SINCE USING uxterm
 bindsym Control+$mod+l exec i3lock -d -c 000020
 bindsym $mod+Shift+P exec i3-sensible-terminal -e "ipython" --title="PYTHONCALC"
 for_window [title="^PYTHONCALC$"] floating enable
 floating_minimum_size 75 x 50
 bindsym $mod+Shift+T exec i3-sensible-terminal --title="TEMPTERM"
 for_window [title="^TEMPTERM$"] floating enable
+
+# mutlti monitor setup
+bindsym $mod+x move workspace to output right
