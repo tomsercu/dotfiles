@@ -7,15 +7,15 @@
 
 # No CIMS defaults, just set the damn paths myself
 export PATH=/opt/bin:/usr/local/bin:/usr/local/sbin:/usr/bin:/usr/sbin:/bin:/sbin:/opt/sunstudio/bin:/usr/lib64/ccache
-export PATH=/home/ts2387/.local/bin:/home/ts2387/bin:$PATH
-export LD_LIBRARY_PATH=/usr/local/lib:/usr/local/slib:/usr/lib:/usr/slib:/lib:/slib
-export LD_LIBRARY_PATH=/home/ts2387/.local/lib:/home/ts2387/lib:$LD_LIBRARY_PATH
+export LD_LIBRARY_PATH=/usr/local/lib:/usr/local/slib:/usr/lib64:/usr/lib:/usr/slib:/lib:/slib
+export MODULEPATH=$MODULEPATH:/usr/local/etc/modulefiles
 
 # Make individual customizations, such as aliases, below.
 # for screen and ssh -e, don't do module but add explicitly to path
 command -v module > /dev/null 2>&1
 if [ $? -eq 0 ]; then
     module load python-2.7
+    module load gcc-4.9
 else
     export PATH=/usr/local/pkg/python/2.7/bin:$PATH
     export LD_LIBRARY_PATH=/usr/local/pkg/python/2.7/lib:$LD_LIBRARY_PATH
