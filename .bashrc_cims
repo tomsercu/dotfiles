@@ -20,9 +20,22 @@ else
     export PATH=/usr/local/pkg/python/2.7/bin:$PATH
     export LD_LIBRARY_PATH=/usr/local/pkg/python/2.7/lib:$LD_LIBRARY_PATH
 fi
+# local installs
+export PATH=/home/ts2387/.local/bin:/home/ts2387/bin:$PATH
+export LD_LIBRARY_PATH=/home/ts2387/.local/lib:/home/ts2387/lib:$LD_LIBRARY_PATH
+export LIBRARY_PATH=$LD_LIBRARY_PATH
+export C_INCLUDE_PATH=/home/ts2387/.local/include:/home/ts2387/include
+export CPLUS_INCLUDE_PATH=/home/ts2387/.local/include:/home/ts2387/include
 # torch
-export PATH=/home/ts2387/torch/bin:$PATH
-export LD_LIBRARY_PATH=/home/ts2387/torch/lib:$LD_LIBRARY_PATH
+#export PATH=/home/ts2387/torch/bin:$PATH
+#export LD_LIBRARY_PATH=/home/ts2387/torch/lib:$LD_LIBRARY_PATH
+export TORCHROOT=$HOME/torch_sc
+export PATH=/home/ts2387/torch_sc/install/bin:$PATH  # Added automatically by torch-dist
+export LD_LIBRARY_PATH=/home/ts2387/torch_sc/install/lib:$LD_LIBRARY_PATH  # Added automatically by torch-dist
+export DYLD_LIBRARY_PATH=/home/ts2387/torch_sc/install/lib:$DYLD_LIBRARY_PATH  # Added automatically by torch-dist
+export LIBRARY_PATH=$TORCHROOT/install/lib:$LIBRARY_PATH
+export C_INCLUDE_PATH=$TORCHROOT/install/include:$C_INCLUDE_PATH
+export CPLUS_INCLUDE_PATH=$TORCHROOT/install/include:$CPLUS_INCLUDE_PATH
 
 # enable color support of ls and also add handy aliases
 if [ -x /usr/bin/dircolors ]; then
@@ -49,6 +62,7 @@ PS1='\h[\w]$ '
 # most recent cuda
 export PATH=/usr/local/pkg/cuda/6.5/bin:$PATH
 export LD_LIBRARY_PATH=/usr/local/pkg/cuda/6.5/lib64:/usr/local/pkg/cuda/6.5/lib:$LD_LIBRARY_PATH
+export LIBRARY_PATH=$LIBRARY_PATH:/usr/local/pkg/cuda/6.5/cuda/lib64
 
 # umask for babel 
 umask 007
@@ -60,3 +74,13 @@ export PATH=/usr/local/pkg/obsolete/mongodb/2.4.3/bin:$PATH
 export LD_LIBRARY_PATH=/home/ts2387/lib:$LD_LIBRARY_PATH
 # set pulse audio for automatic port forwarding
 export PULSE_SERVER=localhost:9975
+# cmake and others for fbcunn 2015-04-17
+export CMAKE_LIBRARY_PATH=$TORCHROOT/install/lib:$CMAKE_LIBRARY_PATH
+export CMAKE_INCLUDE_PATH=$TORCHROOT/install/include:$CMAKE_INCLUDE_PATH
+export CC=gcc49
+export CXX=g++49
+
+# atari 4/20
+export PATH=/home/ts2387/atari/bin:$PATH
+export LD_LIBRARY_PATH=/home/ts2387/atari/lib:$LD_LIBRARY_PATH
+export LIBRARY_PATH=$LD_LIBRARY_PATH
