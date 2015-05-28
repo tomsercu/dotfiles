@@ -29,10 +29,10 @@ export CPLUS_INCLUDE_PATH=/home/ts2387/.local/include:/home/ts2387/include
 # torch
 #export PATH=/home/ts2387/torch/bin:$PATH
 #export LD_LIBRARY_PATH=/home/ts2387/torch/lib:$LD_LIBRARY_PATH
-export TORCHROOT=$HOME/torch_sc
-export PATH=/home/ts2387/torch_sc/install/bin:$PATH  # Added automatically by torch-dist
-export LD_LIBRARY_PATH=/home/ts2387/torch_sc/install/lib:$LD_LIBRARY_PATH  # Added automatically by torch-dist
-export DYLD_LIBRARY_PATH=/home/ts2387/torch_sc/install/lib:$DYLD_LIBRARY_PATH  # Added automatically by torch-dist
+export TORCHROOT=$HOME/torch_dbg
+export PATH=/home/ts2387/torch_dbg/install/bin:$PATH  # Added automatically by torch-dist
+export LD_LIBRARY_PATH=/home/ts2387/torch_dbg/install/lib:$LD_LIBRARY_PATH  # Added automatically by torch-dist
+export DYLD_LIBRARY_PATH=/home/ts2387/torch_dbg/install/lib:$DYLD_LIBRARY_PATH  # Added automatically by torch-dist
 export LIBRARY_PATH=$TORCHROOT/install/lib:$LIBRARY_PATH
 export C_INCLUDE_PATH=$TORCHROOT/install/include:$C_INCLUDE_PATH
 export CPLUS_INCLUDE_PATH=$TORCHROOT/install/include:$CPLUS_INCLUDE_PATH
