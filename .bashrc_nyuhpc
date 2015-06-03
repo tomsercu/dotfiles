@@ -1,0 +1,33 @@
+# .bashrc
+
+# Source global definitions
+if [ -f /etc/bashrc ]; then
+	. /etc/bashrc
+fi
+
+# User specific aliases and functions
+#export PATH=/home/ts2387/torch/bin:$PATH
+#export LD_LIBRARY_PATH=/home/ts2387/torch/lib:$LD_LIBRARY_PATH
+export PATH=/home/ts2387/bin:$PATH
+export LD_LIBRARY_PATH=/home/ts2387/lib:$LD_LIBRARY_PATH
+alias ll='ls -lah'
+alias la='ls -A'
+alias l='ls -CF'
+alias grip='grep -i'
+PS1='\h[\w]$ '
+
+module load cmake
+module load cuda/6.5.12
+module load gcc/4.9.2
+module load python/intel/2.7.6
+module load torch-deps/7
+module load vim/gnu/7.4
+
+#export CC=gcc49
+#export CXX=g++49
+export TORCHROOT=$HOME/torch_sc
+#export CMAKE_LIBRARY_PATH=$TORCHROOT/install/lib:$CMAKE_LIBRARY_PATH
+#export CMAKE_INCLUDE_PATH=$TORCHROOT/install/include:$CMAKE_INCLUDE_PATH
+export PATH=$TORCHROOT/install/bin:$PATH
+export LD_LIBRARY_PATH=$TORCHROOT/install/lib:$LD_LIBRARY_PATH
+export CMAKE_LIBRARY_PATH=$LD_LIBRARY_PATH
