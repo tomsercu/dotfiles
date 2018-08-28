@@ -128,7 +128,7 @@ set nojoinspaces                " Prevents inserting two spaces after punctuatio
 set splitright                  " Puts new vsplit windows to the right of the current
 set splitbelow                  " Puts new split windows to the bottom of the current
 "set matchpairs+=<:>             " Match, to be used with %
-set pastetoggle=<F12>           " pastetoggle (sane indentation on pastes)
+set pastetoggle=<F8>           " pastetoggle (sane indentation on pastes)
 "set comments=sl:/*,mb:*,elx:*/  " auto format comment blocks
 
 set ttyfast
@@ -202,6 +202,9 @@ vnoremap > >gv
 "nnoremap <silent> <leader>gw :Gwrite<CR>
 "nnoremap <silent> <leader>ge :Gedit<CR>
 "nnoremap <silent> <leader>gg :SignifyToggle<CR>
+
+" 2016-11-01 dont let xolox vim-lua-ftplugin get in my way
+let g:lua_complete_dynamic = 0
   
 " Initialize directories for backup etc 
 function! InitializeDirectories()
