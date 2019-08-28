@@ -1,19 +1,23 @@
-Cloning this vim configuration
-==============================
-Installation:
+NOTE this subdir used to be standalone, now archived: https://github.com/tomsercu/dotvim
 
-    git clone git@github.com:tomsercu/dotvim.git ~/.vim
+Setting up vim config
+=====================
+Assuming base dir is `~/dotfiles/`
 
 Create symlinks:
 
-    ln -s ~/.vim/vimrc ~/.vimrc
-    ln -s ~/.vim/gvimrc ~/.gvimrc
+    ln -s ~/dotfiles/.vim ~/.vim
+    ln -s ~/dotfiles/.vim/vimrc ~/.vimrc
 
-Switch to the `~/.vim` directory, and fetch submodules:
+see also ~/dotfiles/links
+
+This won't work cause not submodules anymore:
 
     cd ~/.vim
     git submodule init
     git submodule update
+
+Instead I'll manually update the contents of `~/bundle/` every once in a while - ie when something is broken
 
 My notes
 ========
