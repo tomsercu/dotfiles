@@ -3,6 +3,7 @@
 	email = tom.sercu@gmail.com
 [core]
 	editor = vim
+	excludesfile = /private/home/tsercu/.gitignore
 [merge]
 	tool = vimdiff
 [alias]
@@ -32,3 +33,7 @@
 	smudge = git-lfs smudge -- %f
 	process = git-lfs filter-process
 	required = true
+[pull]
+	ff = only
+[init]
+	defaultBranch = main

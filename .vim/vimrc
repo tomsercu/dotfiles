@@ -149,7 +149,7 @@ vnoremap <F1> <ESC>
 " remap ; to : for saving files in n mode
 nnoremap ; :
 " remap jj to escape
-inoremap jj <ESC>
+"inoremap jj <ESC>
 " quick redo replace
 nnoremap <leader>. @:
 " :E for explorer - TODO make it wwork!
@@ -237,3 +237,11 @@ function! InitializeDirectories()
     endfor
 endfunction
 call InitializeDirectories()
+
+" 2020-05-21 add vim-latex in bundle/
+let g:tex_flavor='latex'
+let g:Tex_GotoError=0
+
+
+" 2021-03-26 adding coc.vim
+let g:coc_disable_startup_warning = 1
