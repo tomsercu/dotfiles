@@ -9,7 +9,7 @@ ZSH_THEME="robbyrussell"
 # Custom plugins may be added to ~/.oh-my-zsh/custom/plugins/
 # Example format: plugins=(rails git textmate ruby lighthouse)
 # Add wisely, as too many plugins slow down shell startup.
-plugins=(git virtualenv)
+plugins=(git virtualenv fzf-zsh-plugin)
 
 source $ZSH/oh-my-zsh.sh
 #</oh-my-zsh> (Tom 2020-05-04)
