@@ -239,9 +239,16 @@ endfunction
 call InitializeDirectories()
 
 " 2020-05-21 add vim-latex in bundle/
-let g:tex_flavor='latex'
-let g:Tex_GotoError=0
+"let g:tex_flavor='latex'
+"let g:Tex_GotoError=0
 
 
 " 2021-03-26 adding coc.vim
 let g:coc_disable_startup_warning = 1
+
+" 2022-12 adding vimtex instead of vim-latex
+" Viewer options: One may configure the viewer either by specifying a built-in
+" viewer method:
+"let g:vimtex_view_method = 'zathura'
+let maplocalleader = ","
+

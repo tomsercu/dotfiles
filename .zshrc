@@ -20,5 +20,4 @@ source $ZSH/oh-my-zsh.sh
 source $HOME/.profile # local bin paths
 [ -f $HOME/.profile.cluster ] && source $HOME/.profile.cluster
 [ -f $HOME/.profile.local ] && source $HOME/.profile.local
-# TODO figure out fzf stuff in portable way? for now just in ~/.profile.cluster
 
