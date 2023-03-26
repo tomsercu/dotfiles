@@ -1,7 +1,11 @@
 My dotfiles.
 
 Getting started on new mac, in no particular order:
-* Prereq, install: tmux, iterm2, fzf, https://ohmyz.sh/#install
+* Prereq, install: 
+  - iterm2, homebrew. Via installer on their website.
+  - <https://ohmyz.sh/#install>
+  - `brew install fzf` and `git clone https://github.com/unixorn/fzf-zsh-plugin.git ${ZSH_CUSTOM:-~/.oh-my-zsh/custom}/plugins/fzf-zsh-plugin` (from [INSTRUCTIONS](https://github.com/unixorn/fzf-zsh-plugin#oh-my-zsh>)).
+  - `brew install tmux`
 * Set up ssh keys
 * miniconda: https://docs.conda.io/en/main/miniconda.html
 * solarized for iterm2: 
@@ -16,4 +20,4 @@ cat links | sh
 
 You're welcome, future self!
 Kindest regards,
-Tom from 2015 - 2022
+Current self from 2015 - 2023

@@ -19,5 +19,5 @@ source $ZSH/oh-my-zsh.sh
 # Tom 2020-04-22 trying to get basic setup:
 source $HOME/.profile # local bin paths
 [ -f $HOME/.profile.cluster ] && source $HOME/.profile.cluster
+# Machine-specific eg conda activation
 [ -f $HOME/.profile.local ] && source $HOME/.profile.local
-
