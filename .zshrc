@@ -9,7 +9,7 @@ ZSH_THEME="robbyrussell"
 # Custom plugins may be added to ~/.oh-my-zsh/custom/plugins/
 # Example format: plugins=(rails git textmate ruby lighthouse)
 # Add wisely, as too many plugins slow down shell startup.
-plugins=(git virtualenv fzf-zsh-plugin)
+plugins=(git fzf-zsh-plugin)
 
 source $ZSH/oh-my-zsh.sh
 #</oh-my-zsh> (Tom 2020-05-04)
@@ -21,3 +21,5 @@ source $HOME/.profile # local bin paths
 [ -f $HOME/.profile.cluster ] && source $HOME/.profile.cluster
 # Machine-specific eg conda activation
 [ -f $HOME/.profile.local ] && source $HOME/.profile.local
+
+[ -f ~/.fzf.zsh ] && source ~/.fzf.zsh

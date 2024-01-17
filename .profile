@@ -41,7 +41,7 @@ alias grep='grep --color=auto'
 alias grip='grep -i'
 alias mysqueue='squeue -u tsercu -o "%.9i %.9P %.28j %.8u %.2t %.10M %.6D %R"'
 alias mysku=mysqueue
-alias gd=git diff --submodule=diff
+alias gd="git diff --submodule=diff"
 greptails() { pat=$1; shift; for fn in $(ls "$@"); do echo "==> $fn <=="; grep -a $pat $fn | tail -1 | grep -E --color $pat; done }
 bless() { pat=$1; shift; for fn in $(ls "$@"); do echo "==> $fn <=="; grep $pat $fn | tail -1; done }
 function f { grep -rnIi "$1" . --color; }

@@ -3,7 +3,8 @@
 	email = tom.sercu@gmail.com
 [core]
 	editor = vim
-	excludesfile = /private/home/tsercu/.gitignore
+	excludesFile = ~/.gitignore
+	untrackedCache = true
 [merge]
 	tool = vimdiff
 [alias]
@@ -37,3 +38,5 @@
 	ff = only
 [init]
 	defaultBranch = main
+[checkout]
+	workers = 16
