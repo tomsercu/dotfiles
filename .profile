@@ -77,3 +77,5 @@ function offshore () {
 grepcancel() {
     mysku | grep $1 | awk '{print "scancel " $1}'
 }
+
+alias mm=micromamba
